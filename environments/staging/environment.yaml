@@ -40,7 +40,7 @@ app:
 
   libertyVersionPolicy: "latest_lts"
 
-  libertyInterimFixes: "not_an_array"
+  libertyInterimFixes: 12
 
   # observability:
   #  cloudwatch:   
