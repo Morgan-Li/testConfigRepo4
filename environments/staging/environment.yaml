@@ -40,13 +40,17 @@ app:
 
   libertyVersionPolicy: "latest-lts"
 
+  libertyInterimFixes:
+    - PH42421
+    - PH56512
+
   # observability:
   #  cloudwatch:   
   #    arn: arn:aws:logs:region:account-id:destination:destination_name
   #    logGroup: myLogGroup
   #    region: us-east-1
 
-  version: "8fbb368f-b1f6-4ba9-bd65-a202d158969d"
+  version: "7184b216-812b-412e-ba83-2a9ce3e71822"
 # probes
 # dynamic scaling
 # scaling to 0
